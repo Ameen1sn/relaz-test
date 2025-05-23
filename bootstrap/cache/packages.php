@@ -19,28 +19,28 @@
   ),
   'artesaos/seotools' => 
   array (
+    'aliases' => 
+    array (
+      'SEO' => 'Artesaos\\SEOTools\\Facades\\SEOTools',
+      'JsonLd' => 'Artesaos\\SEOTools\\Facades\\JsonLd',
+      'SEOMeta' => 'Artesaos\\SEOTools\\Facades\\SEOMeta',
+      'Twitter' => 'Artesaos\\SEOTools\\Facades\\TwitterCard',
+      'OpenGraph' => 'Artesaos\\SEOTools\\Facades\\OpenGraph',
+    ),
     'providers' => 
     array (
       0 => 'Artesaos\\SEOTools\\Providers\\SEOToolsServiceProvider',
     ),
-    'aliases' => 
-    array (
-      'SEOMeta' => 'Artesaos\\SEOTools\\Facades\\SEOMeta',
-      'OpenGraph' => 'Artesaos\\SEOTools\\Facades\\OpenGraph',
-      'Twitter' => 'Artesaos\\SEOTools\\Facades\\TwitterCard',
-      'JsonLd' => 'Artesaos\\SEOTools\\Facades\\JsonLd',
-      'SEO' => 'Artesaos\\SEOTools\\Facades\\SEOTools',
-    ),
   ),
   'barryvdh/laravel-debugbar' => 
   array (
-    'providers' => 
-    array (
-      0 => 'Barryvdh\\Debugbar\\ServiceProvider',
-    ),
     'aliases' => 
     array (
       'Debugbar' => 'Barryvdh\\Debugbar\\Facades\\Debugbar',
+    ),
+    'providers' => 
+    array (
+      0 => 'Barryvdh\\Debugbar\\ServiceProvider',
     ),
   ),
   'blade-ui-kit/blade-icons' => 
@@ -63,13 +63,13 @@
   ),
   'cloudinary-labs/cloudinary-laravel' => 
   array (
-    'providers' => 
-    array (
-      0 => 'CloudinaryLabs\\CloudinaryLaravel\\CloudinaryServiceProvider',
-    ),
     'aliases' => 
     array (
       'Cloudinary' => 'CloudinaryLabs\\CloudinaryLaravel\\Facades\\Cloudinary',
+    ),
+    'providers' => 
+    array (
+      0 => 'CloudinaryLabs\\CloudinaryLaravel\\CloudinaryServiceProvider',
     ),
   ),
   'daftspunk/laravel-config-writer' => 
@@ -128,13 +128,13 @@
   ),
   'laravel/socialite' => 
   array (
-    'providers' => 
-    array (
-      0 => 'Laravel\\Socialite\\SocialiteServiceProvider',
-    ),
     'aliases' => 
     array (
       'Socialite' => 'Laravel\\Socialite\\Facades\\Socialite',
+    ),
+    'providers' => 
+    array (
+      0 => 'Laravel\\Socialite\\SocialiteServiceProvider',
     ),
   ),
   'laravel/tinker' => 
@@ -146,13 +146,13 @@
   ),
   'livewire/livewire' => 
   array (
-    'providers' => 
-    array (
-      0 => 'Livewire\\LivewireServiceProvider',
-    ),
     'aliases' => 
     array (
       'Livewire' => 'Livewire\\Livewire',
+    ),
+    'providers' => 
+    array (
+      0 => 'Livewire\\LivewireServiceProvider',
     ),
   ),
   'loveycom/cashfree' => 
@@ -175,46 +175,46 @@
   ),
   'maatwebsite/excel' => 
   array (
-    'providers' => 
-    array (
-      0 => 'Maatwebsite\\Excel\\ExcelServiceProvider',
-    ),
     'aliases' => 
     array (
       'Excel' => 'Maatwebsite\\Excel\\Facades\\Excel',
     ),
+    'providers' => 
+    array (
+      0 => 'Maatwebsite\\Excel\\ExcelServiceProvider',
+    ),
   ),
   'mailjet/laravel-mailjet' => 
   array (
-    'providers' => 
-    array (
-      0 => 'Mailjet\\LaravelMailjet\\MailjetServiceProvider',
-    ),
     'aliases' => 
     array (
       'Mailjet' => 'Mailjet\\LaravelMailjet\\Facades\\Mailjet',
     ),
+    'providers' => 
+    array (
+      0 => 'Mailjet\\LaravelMailjet\\MailjetServiceProvider',
+    ),
   ),
   'mollie/laravel-mollie' => 
   array (
-    'providers' => 
-    array (
-      0 => 'Mollie\\Laravel\\MollieServiceProvider',
-    ),
     'aliases' => 
     array (
       'Mollie' => 'Mollie\\Laravel\\Facades\\Mollie',
     ),
+    'providers' => 
+    array (
+      0 => 'Mollie\\Laravel\\MollieServiceProvider',
+    ),
   ),
   'munafio/chatify' => 
   array (
-    'providers' => 
-    array (
-      0 => 'Chatify\\ChatifyServiceProvider',
-    ),
     'aliases' => 
     array (
       'Chatify' => 'Chatify\\Facades\\ChatifyMessenger',
+    ),
+    'providers' => 
+    array (
+      0 => 'Chatify\\ChatifyServiceProvider',
     ),
   ),
   'nesbot/carbon' => 
@@ -240,13 +240,13 @@
   ),
   'opcodesio/log-viewer' => 
   array (
-    'providers' => 
-    array (
-      0 => 'Opcodes\\LogViewer\\LogViewerServiceProvider',
-    ),
     'aliases' => 
     array (
       'LogViewer' => 'Opcodes\\LogViewer\\Facades\\LogViewer',
+    ),
+    'providers' => 
+    array (
+      0 => 'Opcodes\\LogViewer\\LogViewerServiceProvider',
     ),
   ),
   'orangehill/iseed' => 
@@ -272,13 +272,13 @@
   ),
   'ralphjsmit/livewire-urls' => 
   array (
-    'providers' => 
-    array (
-      0 => 'RalphJSmit\\Livewire\\Urls\\LivewireUrlsServiceProvider',
-    ),
     'aliases' => 
     array (
       'LivewireUrls' => 'RalphJSmit\\Livewire\\Urls\\Facades\\Url',
+    ),
+    'providers' => 
+    array (
+      0 => 'RalphJSmit\\Livewire\\Urls\\LivewireUrlsServiceProvider',
     ),
   ),
   'rtconner/laravel-tagging' => 
@@ -297,13 +297,13 @@
   ),
   'spatie/laravel-ignition' => 
   array (
-    'providers' => 
-    array (
-      0 => 'Spatie\\LaravelIgnition\\IgnitionServiceProvider',
-    ),
     'aliases' => 
     array (
       'Flare' => 'Spatie\\LaravelIgnition\\Facades\\Flare',
+    ),
+    'providers' => 
+    array (
+      0 => 'Spatie\\LaravelIgnition\\IgnitionServiceProvider',
     ),
   ),
   'spatie/laravel-sitemap' => 
@@ -315,13 +315,13 @@
   ),
   'srmklive/paypal' => 
   array (
-    'providers' => 
-    array (
-      0 => 'Srmklive\\PayPal\\Providers\\PayPalServiceProvider',
-    ),
     'aliases' => 
     array (
       'PayPal' => 'Srmklive\\PayPal\\Facades\\PayPal',
+    ),
+    'providers' => 
+    array (
+      0 => 'Srmklive\\PayPal\\Providers\\PayPalServiceProvider',
     ),
   ),
   'stevebauman/purify' => 
@@ -337,23 +337,23 @@
   ),
   'unicodeveloper/laravel-paystack' => 
   array (
-    'providers' => 
-    array (
-      0 => 'Unicodeveloper\\Paystack\\PaystackServiceProvider',
-    ),
     'aliases' => 
     array (
       'Paystack' => 'Unicodeveloper\\Paystack\\Facades\\Paystack',
     ),
+    'providers' => 
+    array (
+      0 => 'Unicodeveloper\\Paystack\\PaystackServiceProvider',
+    ),
   ),
   'wireui/wireui' => 
   array (
+    'aliases' => 
+    array (
+    ),
     'providers' => 
     array (
       0 => 'WireUi\\Providers\\WireUiServiceProvider',
-    ),
-    'aliases' => 
-    array (
     ),
   ),
 );

@@ -20,7 +20,7 @@
         "guzzlehttp/guzzle": "^7.4",
         "htmlmin/htmlmin": "^9.0",
         "intervention/image": "^2.7",
-        "laravel/framework": "^9.19",
+        "laravel/framework": "^9.0",
         "laravel/sanctum": "^2.14.1",
         "laravel/socialite": "^5.5",
         "laravel/tinker": "^2.7",
