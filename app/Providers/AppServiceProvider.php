@@ -18,7 +18,7 @@ class AppServiceProvider extends ServiceProvider
 
             // Force https, but not in localhost
             try {
-                if (!is_localhost()) {
+                if (!is_localhost()) { 
                     \URL::forceScheme('https');
                 }
             } catch (\Throwable $th) {
